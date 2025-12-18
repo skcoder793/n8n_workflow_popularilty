@@ -33,7 +33,7 @@ A single **"Big Shape"** SQLite database that normalizes heterogeneous metrics.
 A single endpoint that reformats JSON responses on-the-fly based on the platform source.
 
 ### 📈 Scalable
-Built-in rate limiting and error recovery to handle **20,000+ workflow records**.
+Built-in rate limiting and error recovery to handle **50+ workflow records**.
 
 ---
 
@@ -63,7 +63,7 @@ Built-in rate limiting and error recovery to handle **20,000+ workflow records**
 │   ├── utils/          # Helper functions & config
 │   └── main.py         # App entry point
 ├── data/
-│   └── seed_workflows.json   # 3,000+ keywords for harvesting
+│   └── seed_workflows.json   # 50+ keywords for harvesting
 ├── jobs/               # Background data collection scripts
 └── .env                # API keys and environment variables
 
@@ -87,8 +87,8 @@ Built-in rate limiting and error recovery to handle **20,000+ workflow records**
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/n8n-popularity-tracker.git
-cd n8n-popularity-tracker
+git clone https://github.com/skcoder793/n8n_workflow_popularity.git
+cd n8n_workflow_popularity
 
 # Create and activate virtual environment
 python -m venv venv
@@ -127,3 +127,4 @@ YOUTUBE_API_KEY=your_key_here
 - **YouTube:** views, likes, engagement_ratios
 - **Forum:** replies, likes, unique_contributors
 - **Google Trends:** interest_score, growth_pct
+
